@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainLayout"
+	android:background="@drawable/mainbkg"
+  	android:scaleType="centerCrop" 
+  	android:layout_height="fill_parent" 
+  	android:layout_width="fill_parent" 
+  	android:orientation="vertical">
+  	
+	<LinearLayout 
+		android:id="@+id/mainLayout2" 
+	  	android:layout_height="50dip" 
+	  	android:layout_width="wrap_content"
+	  	android:layout_gravity="center">
+	</LinearLayout>
+
+  	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="5"/>
+
+  	<Button
+  	  android:id="@+id/game_button"
+  	  android:layout_width="wrap_content"
+  	  android:layout_height="wrap_content"
+  	  android:background="@drawable/custom_play_button"
+  	  android:layout_gravity="center"/>
+  	
+  	
+  	  
+  	 <ImageView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="20"/>
+	
+	<!-- Here I have 4 linear layouts on the bottom half of the screen.
+		 This is where the cows will be located 
+		 I chose to use LinearLayouts over RelativeLayouts because 
+		 Linear Layouts let me apply weights, which seemed to better handle 
+		 varying screen sizes"	-->
+		
+	<!-- ROW ONE -->
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="bottom"
+	android:orientation="horizontal">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="65"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_mini"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="35"/>
+	
+	</LinearLayout>
+
+	<!-- ROW TWO -->
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="45"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="55"/>
+	
+	</LinearLayout>
+
+	<!-- ROW THREE -->
+
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center"
+	android:orientation="horizontal">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="10"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="80"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="10"/>
+	
+	</LinearLayout>
+
+	<!-- ROW FOUR -->
+
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="5"/>
+	
+	<ImageButton
+	android:id="@+id/award_button"
+	android:layout_width="48dip" 
+	android:layout_height="48dip"
+	android:background="@drawable/award"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="25"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker"/>
+
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="50"/>
+	
+	<ImageButton
+	android:id="@+id/question_button"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/question_mark"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="5"/>
+	
+	</LinearLayout>
+
+	
+  </LinearLayout>
+  

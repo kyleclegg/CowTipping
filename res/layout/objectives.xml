@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/mainbkg"
+  	android:scaleType="centerCrop" 
+  	android:layout_height="fill_parent" 
+  	android:layout_width="fill_parent"
+  	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="40dip"
+        android:text="Objectives" />
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/transparent_grey_button" >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+	        
+            <!-- 1 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_1"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_1" />
+	            
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	        
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_1" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 2 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_2"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_1" />
+	            
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	        
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_2" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 3 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_3"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_3" />
+	        
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	            
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_3" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 4 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_4"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_4" />
+	        
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	            
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_4" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 5 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_5"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_5" />
+	        
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	            
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_5" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 6 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_6"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_6" />
+	        
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	            
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_6" />
+	        
+	        </LinearLayout>
+	        
+	        <!-- 7 -->
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:orientation="horizontal"
+	        	android:padding="5dip" >
+	        	
+	            <ImageView
+	                android:id="@+id/btn_obj_7"
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/btn_star_big_off"
+			        android:contentDescription="@string/objective_7" />
+	        
+	            <View 
+	                android:layout_width="10dip"
+	                android:layout_height="fill_parent" />
+	            
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:textColor="#000000"
+			        android:textSize="20dip"
+			        android:text="@string/objective_7" />
+	        
+	        </LinearLayout>
+        
+        </LinearLayout>
+    </ScrollView>
+    
+    
+    <LinearLayout 
+		android:id="@+id/objectives_ad_layout" 
+	  	android:layout_height="50dip" 
+	  	android:layout_width="wrap_content"
+	  	android:layout_gravity="center|bottom">
+	</LinearLayout>
+    
+</LinearLayout>

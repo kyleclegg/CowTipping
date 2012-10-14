@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/mainbkg"
+  	android:scaleType="centerCrop" 
+  	android:layout_height="fill_parent" 
+  	android:layout_width="fill_parent" 
+  	android:orientation="vertical"
+  	android:baselineAligned="true">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/playLayout" 
+	  	android:layout_height="50dip" 
+	  	android:layout_width="wrap_content"
+	  	android:layout_gravity="center">
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	  	android:layout_height="wrap_content" 
+	  	android:layout_width="wrap_content"
+	  	android:layout_gravity="center"
+	  	android:orientation="horizontal">
+	
+		<ImageButton
+	  	  android:id="@+id/back_button"
+	  	  android:layout_width="wrap_content"
+	  	  android:layout_height="wrap_content"
+	  	  android:background="@drawable/time_remaining"
+	  	  android:layout_gravity="center"/>
+	  	  
+		<TextView 
+		android:id="@+id/tvTimer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="40dp"
+		android:textColor="#91bd46"
+		android:paddingLeft="5dp"
+		android:gravity="center"
+		android:layout_gravity="center"/>
+		
+	</LinearLayout>
+	
+	<ImageView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="90"/>
+	
+	<!-- Here I have 4 linear layouts on the bottom half of the screen.
+		 This is where the cows will be located 
+		 I chose to use LinearLayouts over RelativeLayouts because 
+		 Linear Layouts let me apply weights, which seemed to better handle 
+		 varying screen sizes"	-->
+		
+	<!-- ROW ONE -->
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="bottom"
+	android:orientation="horizontal">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="30"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton1" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="6dp"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="35"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton2" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="35"/>
+	
+	</LinearLayout>
+
+	<!-- ROW TWO -->
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="5"/>
+	
+	<ImageButton 
+	android:id="@+id/imageButton3"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="12dp"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="20"/>
+	
+	<ImageButton 
+	android:id="@+id/imageButton4"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="10"/>
+	
+	<ImageButton 
+	android:id="@+id/imageButton5"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dp"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="30"/>
+	
+	<ImageButton 
+	android:id="@+id/imageButton6"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="32"/>
+	
+	<ImageButton 
+	android:id="@+id/imageButton7"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="5dp"
+	android:background="@drawable/cowmarker_small"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="3"/>
+	
+	</LinearLayout>
+
+	<!-- ROW THREE -->
+
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center"
+	android:orientation="horizontal">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="10"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton8"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="5"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton9"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dp"
+	android:background="@drawable/cowmarker"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="35"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton10"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="8dp"
+	android:background="@drawable/cowmarker"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="45"/>
+	
+	
+	<ImageView 
+	android:id="@+id/imageButton11"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="10dp"
+	android:background="@drawable/cowmarker"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="5"/>
+	
+	</LinearLayout>
+
+	<!-- ROW FOUR -->
+
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:gravity="center">
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="45"/>
+	
+	<ImageButton
+	android:id="@+id/imageButton12"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/cowmarker"/>
+
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="15"/>
+	
+	
+	<ImageButton
+	android:id="@+id/imageButton13"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="10dp"
+	android:background="@drawable/cowmarker"/>
+
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="20"/>
+		
+	<ImageButton
+	android:id="@+id/imageButton14"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="8dp"
+	android:background="@drawable/cowmarker"/>
+	
+	<ImageView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="20"/>
+	
+	
+	
+	</LinearLayout>
+
+  </LinearLayout>
+  

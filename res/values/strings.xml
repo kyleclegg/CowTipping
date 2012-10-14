@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cow Tipping</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="where_is_my_milk_from">Where is my Milk From?</string>
+    <string name="start_tipping">Start Tipping</string>
+    <string name="play">PLAY!</string>
+    <string name="about">Cow Tipping was developed by paperplate design, as a part of the Where Is My Milk From? project. To find out more, check out whereismymilkfrom.com and paperplatedesign.com.</string>
+    <string name="menu_item_1">High Scores</string>
+    <string name="menu_item_2">About</string>
+    <string name="htp_title">How To Play!</string>
+    <string name="htp_desciption">Head on over to the farm for some good cow tippin\' fun. Tippin\' those heifers ain\'t easy, so give em a couple shoves (taps) and see how many you can get! Yeehaw!</string>
+    
+    
+    <!-- Objectives -->
+    <string name="objective_1">Tip 3 Cows</string>
+    <string name="objective_2">Tip 10 Cows in 20 Seconds</string>
+    <string name="objective_3">Tip 20 Cows in 30 Seconds</string>
+    <string name="objective_4">Tip 50 Cows</string>
+    <string name="objective_5">Meet the Sheep</string>
+    <string name="objective_6">Score 10 in Adventure Mode</string>
+    <string name="objective_7">Score 20 in Adventure Mode</string>
+    <string name="objective_8">Score 30 in Adventure Mode</string>
+    
+    
+</resources>
