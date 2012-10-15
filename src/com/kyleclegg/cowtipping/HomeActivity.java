@@ -56,8 +56,9 @@ public class HomeActivity extends Activity {
 	    // Add the adView to it
 	    layout.addView(adView);
 	    // Initiate a generic request to load it with an ad
-	    adView.loadAd(new AdRequest());
-		
+	    AdRequest request = new AdRequest();
+	    request.setTesting(false);
+	    adView.loadAd(request);
 		
 		/**
 		 * Here we will update the prefs to show the HowTo if it's the first time
@@ -125,7 +126,7 @@ public class HomeActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				mpButtonClick.start();
-				Intent i = new Intent(HomeActivity.this, ObjectivesActivity.class);
+				Intent i = new Intent(HomeActivity.this, HighScores.class);
 				startActivity(i);
 			}
 		});
