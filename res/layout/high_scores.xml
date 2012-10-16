@@ -44,92 +44,211 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="200dp" >
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/transparent_grey_button" >
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" >
 
+            <!-- Classic Scores -->
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal" >
+                android:orientation="vertical"
+                android:layout_weight="1" >
 
                 <TextView
-                    android:id="@+id/tvScore1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
+                    android:layout_gravity="center"
+                    android:text="Classic Mode"
+                    android:textColor="#ccc"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text=""
-                    android:textColor="#000000"
-                    android:textSize="20dp" />
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvScore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvScore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvScore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvScore4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvScore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
             </LinearLayout>
-
+            
+            <!-- Frenzy Scores -->
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="vertical"
+                android:layout_weight="1" >
 
                 <TextView
-                    android:id="@+id/tvScore2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
-                    android:gravity="center"
-                    android:text=""
-                    android:textColor="#000000"
-                    android:textSize="20dp" />
-            </LinearLayout>
+                    android:layout_gravity="center"
+                    android:text="Frenzy Mode"
+                    android:textColor="#ccc"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <TextView
-                    android:id="@+id/tvScore3"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
                     android:gravity="center"
-                    android:text=""
-                    android:textColor="#000000"
-                    android:textSize="20dp" />
-            </LinearLayout>
+                    android:orientation="horizontal" >
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/tvFScore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/tvScore4"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
-                    android:gravity="center"
-                    android:text=""
-                    android:textColor="#000000"
-                    android:textSize="20dp" />
-            </LinearLayout>
+                    android:orientation="horizontal" >
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/tvFScore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/tvScore5"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
-                    android:gravity="center"
-                    android:text=""
-                    android:textColor="#000000"
-                    android:textSize="20dp" />
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvFScore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvFScore4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvFScore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ccc"
+                        android:textSize="20dp" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -5,7 +5,7 @@
     android:versionName="3.0" >
 
     <uses-sdk
-        android:minSdkVersion="7"
+        android:minSdkVersion="4"
         android:targetSdkVersion="16" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -71,6 +71,12 @@
             android:configChanges="keyboardHidden|orientation" >
         </activity>
 
+        <!-- Frenzy Activity -->
+        <activity
+            android:name=".FrenzyActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        
         <!-- Objectives Activity -->
         <activity
             android:name=".ObjectivesActivity"
