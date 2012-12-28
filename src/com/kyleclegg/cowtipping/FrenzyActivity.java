@@ -588,7 +588,9 @@ public class FrenzyActivity extends Activity implements OnClickListener {
 		 */
 
 		// Create the adView with my admob pub id
-		AdView adView = new AdView(this, AdSize.BANNER, "a14e24e1c37b214");
+		// Android: a14e24e1c37b214
+		// Amazon: a150dd3f5994b69
+		AdView adView = new AdView(this, AdSize.BANNER, "a150dd3f5994b69");
 		// Lookup your LinearLayout assuming it’s been given
 		// the attribute android:id="@+id/mainLayout"
 		LinearLayout layout = (LinearLayout) findViewById(R.id.playLayout);
